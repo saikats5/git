@@ -1,0 +1,6 @@
+git init
+git add .
+git commit -m "comments here"
+git remote add origin "https://github.com/saikats5/app.git"
+git pull origin master --allow-unrelated-histories
+git push origin master
